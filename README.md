@@ -1,4 +1,4 @@
-## Static Comp Challenge 1 - Backend Module 2
+## Static Comp Challenge 1 - Backend + Frontend Module 2
 
 ## Specification
 
