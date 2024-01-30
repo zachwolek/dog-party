@@ -25,12 +25,23 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|svg|jpg|gif)$/,
+        test: /\.html$/i,
+        use: 'html-loader'
+    },
+    {
+        test: /\.(png|jpg)$/i,
         type: 'asset/resource',
         generator: {
-          filename: 'static/[hash][ext][query]'
+            filename: 'images/[name]-[hash][ext]'
         }
-      }
+    }
     ]
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+        template: 'dist/index.html',
+        filename: 'index.html',
+        inject: false
+    })
+]
 };
