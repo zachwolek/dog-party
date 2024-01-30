@@ -1,0 +1,22 @@
+{
+  "name": "dog-party",
+  "version": "1.0.0",
+  "description": "Dog Party starter kit using webpack and SCSS/SASS enabled.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack server",
+    "build": "webpack"
+  },
+  "author": "Turing School of Software and Design",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^6.10.0",
+    "file-loader": "^6.2.0",
+    "sass": "^1.70.0",
+    "sass-loader": "^14.1.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
