@@ -6,10 +6,11 @@ body {
   width: 100%;
 }
 
-.dog-icon {
-  width: 50px;
+nav {
+  // Example of using a variable:
+  background-color: $secondary-accent-color;
 }
 
-h1 {
-  color: $text-color;
+.dog-icon {
+  width: 50px;
 }
