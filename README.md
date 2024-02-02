@@ -1,4 +1,7 @@
-## Static Comp Challenge - Frontend Module 2
+# Static Comp Challenge - Frontend Module 2
+
+## Project Spec  
+[https://frontend.turing.edu/projects/M2-static-comp-challenge.html](https://frontend.turing.edu/projects/M2-static-comp-challenge.html)
 
 ## Setup
 1. Fork + clone down this repo
