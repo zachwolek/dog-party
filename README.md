@@ -1,13 +1,11 @@
-## Static Comp Challenge 1 - Backend + Frontend Module 2
+## Static Comp Challenge - Frontend Module 2
 
 ## Setup
-1. Clone down this repo.
-1. Remove the default remote: `git remote rm origin` (notice that `git remote -v` not gives you back nothing)
-1. Create a new repo on GitHub with the name of `[what you want to name the repo]` to be consistent with naming
-1. Copy the address that you would use to clone down this repo - something like `git@github.com:...`
-1. Add this remote to your cloned down repo: `git remote add origin [address you copied in the previous step]` - do not include the brackets
-1. Then install the library dependencies. Run: `npm install`
-1. To verify that it is setup correctly, run `npm start` in your terminal. Go to `http://localhost:8080/` and you should see a page with the Turing logo image and a beautiful gradient background. If that's the case, you're good to go. Enter `control + c` in your terminal to stop the server at any time.
+1. Fork + clone down this repo
+1. `cd` into the directory
+1. Install the library dependencies with `npm install`
+1. To verify that it is setup correctly, run `npm start` in your terminal. Go to `http://localhost:8080/` and you should see a page with the Turing logo image and a beautiful gradient background. If that's the case, you're good to go.
+2. Enter `control + c` in your terminal to stop the server at any time.
 
 ## Specification
 
