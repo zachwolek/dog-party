@@ -1,2 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 $main-accent-color: #3F8DA8;
 $secondary-accent-color: #92E0E5;
+$bg-color-main: #ffffff;
+$weight: 900;
+
+@mixin column-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @mixin row-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  @mixin raleway($weight) {
+    font-family: "raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: $weight;
+    font-style: normal;
+  }
+  
+  @mixin button {
+    border: 3px solid $main-accent-color;
+    background-color: $bg-color-main;
+    color: $main-accent-color;
+    padding: 5px 10px;
+  }
+
+  @mixin dog-image($width, $height) {
+    width: $width;
+    height: $height;
+    border: 3px solid $main-accent-color;
+    border-radius: 50%
+  }
+
+  .dog-card-container img {
+    border-radius: 125px;
+    object-fit: cover;
+    border: 3px solid #3f8da8;
+}

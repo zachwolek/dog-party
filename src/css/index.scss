@@ -1,16 +1,84 @@
 @import 'variables';
 
+html {
+  @include raleway(500)
+}
+
 body {
   background: url('../../dist/images/park.jpg') center/cover;
-  height: 100vh;
+  height: 100%;
   width: 100%;
+  @include column-flex;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
   // Example of using a variable:
+  @include row-flex;
   background-color: $secondary-accent-color;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  color: $bg-color-main;
+  padding: 5px;
+}
+
+.header {
+  @include column-flex;
+}
+
+.headline {
+  font-size: 30px;
+}
+
+.dog-selection {
+  @include row-flex;
+  background-color: $bg-color-main;
+  width: 100%;
+  border: black;
+  padding: 20px;
+}
+
+.footer {
+  @include column-flex;
+  background-color: $main-accent-color;
+  color: $bg-color-main;
+  width: 100vw;
+}
+
+
+.dog-info {
+  @include column-flex;
+  text-align: center;
+  font-size: 17px;
+}
+
+.dog-button {
+  @include button;
+  margin: 15px;
 }
 
 .dog-icon {
   width: 50px;
+  margin: 10px;
+}
+
+.head-image {
+  @include dog-image(300px, 300px)
+}
+
+.body-image {
+  @include dog-image(250px, 250px);
+}
+
+// .social-media {
+//   padding: 15px;
+// }
+
+.social-icon {
+  padding:15px
 }
